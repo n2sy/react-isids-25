@@ -1,3 +1,5 @@
+import Backdrop from "./Backdrop";
+import Modal from "./Modal";
 import Todo from "./Todo";
 
 
@@ -8,6 +10,7 @@ function App() {
         <Todo text="Learn Angular" year="2025"></Todo>
         <Todo text="Mini-projet" year ="2022"></Todo>
         <Todo text="Dejeuner" year="2020"></Todo>
+ 
     
     </>
   );
