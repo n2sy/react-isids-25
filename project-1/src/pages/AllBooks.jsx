@@ -1,8 +1,17 @@
 import React from 'react'
+import BookList from '../components/BookList'
 
-function AllBooks() {
+function AllBooks(props) {
+   
   return (
-    <div>AllBooks</div>
+   <BookList livres={props.books}></BookList>
+    
+    // <ol>
+    //     <li>
+            
+    //     </li>
+        
+    // </ol>
   )
 }
 
