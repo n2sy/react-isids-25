@@ -10,7 +10,8 @@ function Navbar() {
         <li>
           <Link to="/">Accueil</Link>
         </li>
-        <li><Link to="all">All Books</Link></li>
+        <li><Link to="all">All-Books</Link></li>
+        <li><Link to="add">Add </Link></li>
         <li>
             {/* <Link to="favourites">Favourites</Link> */}
             <NavLink to="/favourites">

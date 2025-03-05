@@ -1,0 +1,22 @@
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+.cardbody {
+    background: #ffffff;
+    padding: 20px;
+}
+.cardtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+}
+.cardtext {
+    font-size: 1rem;
+    color: #6c757d;
+}
