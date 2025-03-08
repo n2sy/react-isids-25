@@ -1,6 +1,7 @@
 import React from 'react';
 import './BookItem.css';
 import { useNavigate } from 'react-router-dom';
+import Card from './Card';
 
 function BookItem(props) {
     const navigate = useNavigate();
@@ -9,8 +10,8 @@ function BookItem(props) {
         
     }
   return (
-   
-    <li onClick={goToDetails} className='item col-md-4'>
+      <li onClick={goToDetails} className='item col-md-4'>
+        <Card>
         <div className="image">
         <img src={props.oneBook.image}></img>
             
@@ -22,6 +23,7 @@ function BookItem(props) {
         <div className="actions">
             <button>Add To Favourites</button>
         </div>
+        </Card>
     </li>
   )
 }
